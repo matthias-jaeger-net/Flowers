@@ -4,6 +4,9 @@ class Flower {
     x = xPos;
     y = yPos;
     d = diam;
+    Branch b = new Branch(x, y);
+    branches.add(b);
+    
   }
   void render() {
     pushMatrix();
